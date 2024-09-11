@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prog2 {
+public class Prog3 {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         double x = Sc.nextDouble();
