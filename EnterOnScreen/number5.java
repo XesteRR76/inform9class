@@ -4,11 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int number = scanner.nextInt();
+        int number = scanner.nextInt() +5;
 
-        int result = number / 100 * 100;
+        int remainder = number % 10;
+        number = number - remainder;  
+        
 
-        System.out.println(result);
+        System.out.println(number);
 
         scanner.close();
     }
